@@ -14,3 +14,8 @@ BugReports: https://github.com/bjungbogati/minipkg/issues
 Imports: 
     praise,
     rlang
+Suggests: 
+    testthat (>= 3.0.0),
+    tibble,
+    withr
+Config/testthat/edition: 3

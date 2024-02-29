@@ -1,15 +1,16 @@
-
-#' Title
+#' Current time
 #'
-#' @param language
+#' Returns a sentence with the current time
 #'
-#' @return
+#' @param language Language either "fr" (French) or "en" (English)
+#'
+#' @return A character string
 #' @export
 #'
 #' @examples
+#' what_time()
 
 what_time <- function(language = "fr") {
-
 
 
   if(rlang::is_installed("praise")){
